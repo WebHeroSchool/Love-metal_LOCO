@@ -1,0 +1,98 @@
+
+body {
+    color: #000000;
+    font-family: 'montserrat-normal', sans-serif;
+}
+
+.title,
+.bag__title-bold,
+.bag__title,
+.bag-title-bold,
+.bag-title,
+.name {
+    font-family: 'montserrat-bold', sans-serif;
+}
+
+.title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 82px;
+}
+
+.text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 0;
+}
+
+.bag__title-bold {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 41px;
+}
+
+.bag__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: .07em;
+    opacity: .5;
+}
+
+.bag-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    opacity: .5;
+}
+
+
+.product {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px; 
+}
+
+.bag-title-bold {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 41px;
+}
+
+.bag-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: .07em;
+    opacity: .5;  
+}
+
+.total-look__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    opacity: .5;
+}
+
+.name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+}

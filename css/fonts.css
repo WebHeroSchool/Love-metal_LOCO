@@ -1,88 +1,13 @@
-body {
-    font-family: 'Montserrat', sans-serif;
-    color: #000000;
-}
-
-.title {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 80px;
-    line-height: 82px;
-}
-
-.text {
-    font-style: normal;
+@font-face {
+    font-family: 'montserrat-normal';
+    src: url('./fonts/montserrat-black.woff') format('woff');
     font-weight: normal;
-    font-size: 15px;
-    line-height: 21px;
-}
-
-.button {
     font-style: normal;
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 0px;
-}
-
-.bag__title-bold {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 41px;
-}
-
-.bag__title {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 16px;
-    letter-spacing: 0.07em;
-    opacity: 0.5;
-}
-
-.bag-text{
-    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'montserrat-bold';
+    src: url('./fonts/montserrat-extrabold.woff') format('woff');
     font-weight: normal;
-    font-size: 15px;
-    line-height: 21px;
-    opacity: 0.5;
-}
-
-
-.product {
     font-style: normal;
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 16px; 
-}
-
-.bag-title-bold {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 41px;
-}
-
-.bag-title {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 16px;
-    letter-spacing: 0.07em;
-    opacity: 0.5;  
-}
-
-.total-look__text {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 21px;
-    opacity: 0.5;
-}
-
-.name {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 15px;
-}
+  }
