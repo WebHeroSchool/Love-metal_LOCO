@@ -2,12 +2,10 @@
     font-family: 'montserrat-normal';
     src: url('./fonts/montserrat-black.woff') format('woff');
     font-weight: normal;
-    font-style: normal;
   }
   
   @font-face {
     font-family: 'montserrat-bold';
     src: url('./fonts/montserrat-extrabold.woff') format('woff');
     font-weight: normal;
-    font-style: normal;
   }
