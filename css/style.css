@@ -1,4 +1,3 @@
-
 body {
     color: #000000;
     font-family: 'montserrat-normal', sans-serif;
@@ -13,11 +12,80 @@ body {
     font-family: 'montserrat-bold', sans-serif;
 }
 
+/* 1 section*/
+
+.new-collection__background {
+    position: absolute;
+    max-width: 461px;
+    max-height: 900px;
+}
+
+.new-сollection__header,
+.new-сollection__main,
+.new-сollection__menu,
+.new-сollection__menu {
+    position: relative;
+}
+
+.logo {
+    margin-right: 238px;
+    max-width: 98px;
+    max-height: 37px;
+    margin-top: 40px;
+    margin-left: 52px;
+}
+
+.logo-mobil {
+    position: absolute;
+    width: 98px;
+    height: 37px;
+    margin: 5% 0 0 20%; 
+}
+.lang {
+    margin-top: 42px;
+}
+
+.new-сollection__menu {
+    width: 92px;
+    height: 92px;
+    position: absolute;
+    top: 0;
+    right: 0;
+ }
+
+ .new-сollection__menu-box {
+    opacity: 0.05;
+    background: #000;
+    width: 92px;
+    height: 92px;
+ }
+
+ .menu {
+     position: absolute;
+     top: 40%;
+     right: 30%; 
+ }
+
+ .girl {
+    max-width: 855.54px;
+    height: 839px;
+    left: 49.28px;
+    top: 60.92px;
+    margin-left: 50px;
+    background: url(../img/girl.png) no-repeat center top 100px;
+ }
+
 .title {
     font-style: normal;
     font-weight: bold;
     font-size: 80px;
     line-height: 82px;
+    position: absolute;
+    width: 475px;
+    height: 164px;
+    left: 789px;
+    top: 210px;
+    margin: 0;
 }
 
 .text {
@@ -25,6 +93,23 @@ body {
     font-weight: normal;
     font-size: 15px;
     line-height: 21px;
+    color: #000000;
+    position: absolute;
+    width: 467px;
+    height: 127px;
+    left: 789px;
+    top: 372px;
+    margin-bottom: 36px;
+}
+
+.new-сollection__main-card {
+    position: absolute;
+    left: 789px;
+    top: 550px;
+    display: flex;
+    width: 475px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .button {
@@ -34,6 +119,53 @@ body {
     line-height: 0;
 }
 
+.new-сollection__main-button {
+    width: 203px;
+    height: 44px; 
+}
+
+.link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 0px;
+    color: #000;
+    text-decoration: none;
+}
+
+.new-сollection__main-link {
+width: 172px;
+height: 0px;
+}
+
+.new-сollection__social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    top: 752px;
+    position: absolute;
+}
+
+.instagram {
+    margin-right: 15px;
+}
+
+.vk {
+    margin-right: 15px;
+}
+
+.fb {
+    margin-right: 500px;
+}
+
+.line {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+.img {
+    position: relative;
+}
 .bag__title-bold {
     font-style: normal;
     font-weight: bold;
@@ -57,7 +189,6 @@ body {
     line-height: 21px;
     opacity: .5;
 }
-
 
 .product {
     font-style: normal;
@@ -96,3 +227,52 @@ body {
     font-size: 12px;
     line-height: 15px;
 }
+
+.new-collection__background {
+    background-size: 100% auto;
+}
+
+
+    @media (max-width: 768px) { 
+        .logo,
+        .lang,
+        .check,
+        .new-сollection__social,
+        .text,
+        .new-сollection__main-card,
+        .new-collection__background {
+            display: none;
+            } 
+        } 
+
+        @media (min-width: 768px) { 
+        .logo-mobil {
+            display: none;
+            } 
+        } 
+
+        @media (max-width: 768px) { 
+            .girl {
+                background-image: none;
+            }
+        }
+ 
+        @media (max-width: 768px) { 
+            .new-сollection {
+               background: url(../img/girl2.png) no-repeat left 80px top 92px;
+           }
+        }
+
+        @media (max-width: 768px) { 
+            .title {
+                font-size: 50px;
+                line-height: 51px;
+                position: absolute;
+                left: 25%;
+                top: 60%;
+                width: 297px;
+                height: 103px;
+           }
+        }
+
+       
