@@ -39,8 +39,9 @@ body {
     position: absolute;
     width: 98px;
     height: 37px;
-    margin: 5% 0 0 20%; 
+    padding: 5% 0 0 20%; 
 }
+
 .lang {
     margin-top: 42px;
 }
@@ -117,6 +118,10 @@ body {
     font-weight: 500;
     font-size: 13px;
     line-height: 0;
+    border: 1.5px solid #000;
+    background-color: #fff;
+   
+     
 }
 
 .new-сollection__main-button {
@@ -246,7 +251,8 @@ height: 0px;
         } 
 
         @media (min-width: 768px) { 
-        .logo-mobil {
+        .logo-mobil,
+        .galka {
             display: none;
             } 
         } 
@@ -259,7 +265,9 @@ height: 0px;
  
         @media (max-width: 768px) { 
             .new-сollection {
-               background: url(../img/girl2.png) no-repeat left 80px top 92px;
+               background: url(../img/girl2.jpg) no-repeat;
+               background-size: cover contain;      
+               background-position: 0 36%;        
            }
         }
 
@@ -268,11 +276,18 @@ height: 0px;
                 font-size: 50px;
                 line-height: 51px;
                 position: absolute;
-                left: 25%;
+                left: 5%;
                 top: 60%;
                 width: 297px;
                 height: 103px;
            }
         }
 
+        @media (max-width: 768px) { 
+            .galka {
+                position: absolute;
+                left: 170px;
+                top: 625px;
+           }
+        }
        
