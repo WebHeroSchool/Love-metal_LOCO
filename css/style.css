@@ -15,10 +15,12 @@ body {
 /* 1 section*/
 
 .new-collection__background {
-    position: absolute;
     max-width: 461px;
     max-height: 900px;
+    position: absolute;
+    background-size: 100% auto;
 }
+
 
 .new-сollection__header,
 .new-сollection__main,
@@ -233,178 +235,171 @@ height: 0px;
     line-height: 15px;
 }
 
-.new-collection__background {
-    background-size: 100% auto;
-}
 
 
 /* Медиа запросы */
 
 @media (max-width: 1270px) { 
-   .title {
-       top: 30%;
-       width: 20%;
-       font-size: 50px;
-       line-height: 52px;
-       left: 60%;
-   }
-    } 
-
-@media (max-width: 1270px) { 
-    .text {
-        width: 35%;
-        left: 60%;
-        height: 60%;
-    }
-}
-
-@media (max-width: 1270px) { 
-    .new-сollection__main-card {
-        width: 38%;
-        left: 60%;
-        margin-top: 5%;
-    }
-}
-    
-@media (max-width: 1270px) { 
-    .girl {
-        width: 50%;
-        margin-left: 5%;
-    }
-}
-
-@media (max-width: 1100px) { 
-    .new-сollection__main-button {
-        width: 35%;
-        font-size: 8px;
-    }
-}
-
-@media (max-width: 1100px) { 
-    .new-сollection__main-link {
-        width: 50%;
-        margin-left: 3%;
-        font-size: 10px;
-    }
-}
-
-@media (max-width: 1100px) { 
-     .new-сollection-arrow {
-        width: 10%;
-    } 
-     }
-
-
-@media (min-width: 800px) { 
-    .logo-mobil,
-    .galka,
-    .new-collection__background_girl {
-        display: none;
-        } 
-    } 
-
-@media (max-width: 799px) { 
-    .logo,
-    .lang,
-    .check,
-    .new-сollection__social,
-    .text,
-    .new-сollection__main-card,
-    .new-collection__background {
-         display: none;
-        } 
-    } 
-
-@media (max-width: 800px) { 
-    .logo-mobil {
-          position: absolute;
-          width: 98px;
-          height: 37px;
-          padding: 5% 0 0 7%; 
-        }
-    }  
-
-@media (max-width: 799px) { 
-    .girl {
-        background: none
-     }
-    }
-
-@media (max-width: 799px) { 
-    .new-сollection {
-        background: url(../img/girl2.jpg) no-repeat;
-        background-size: cover;
-        background-position: 0 92px; 
-        width: 80%;
-        margin-left: 10%;
-        position: absolute;
-        
-    }
- }
-
- @media (max-width: 799px) { 
     .title {
-        top: 80%;
-        width: 15%;
+        top: 30%;
+        width: 20%;
         font-size: 50px;
         line-height: 52px;
-        left: 30%;
+        left: 60%;
     }
      } 
-
-@media (max-width: 800px) {      
-     .galka  {
-        position: absolute;
-        left: 45%;
-        top: 95%;
-    }
-} 
-
-@media (max-width: 630px) { 
-    .new-сollection {
-        background: url(../img/girl2.jpg) no-repeat;
-        background-size: cover;
-        background-position: -50px 92px; 
-    }
+ 
+ @media (max-width: 1270px) { 
+     .text {
+         width: 35%;
+         left: 60%;
+         height: 60%;
+     }
  }
-
+ 
+ @media (max-width: 1270px) { 
+     .new-сollection__main-card {
+         width: 38%;
+         left: 60%;
+         margin-top: 5%;
+     }
+ }
+     
+ @media (max-width: 1270px) { 
+     .girl {
+         width: 50%;
+         margin-left: 5%;
+     }
+ }
+ 
+ @media (max-width: 1100px) { 
+     .new-сollection__main-button {
+         width: 35%;
+         font-size: 8px;
+     }
+ }
+ 
+ @media (max-width: 1100px) { 
+     .new-сollection__main-link {
+         width: 50%;
+         margin-left: 3%;
+         font-size: 10px;
+     }
+ }
+ 
+ @media (max-width: 1100px) { 
+      .new-сollection-arrow {
+         width: 10%;
+     } 
+      }
+ 
+ 
+ @media (min-width: 800px) { 
+     .logo-mobil,
+     .galka,
+     .new-collection__background_girl {
+         display: none;
+         } 
+     } 
+ 
+ @media (max-width: 799px) { 
+     .logo,
+     .lang,
+     .check,
+     .new-сollection__social,
+     .text,
+     .new-сollection__main-card,
+     .new-collection__background {
+          display: none;
+         } 
+     } 
+ 
+ @media (max-width: 800px) { 
+     .logo-mobil {
+           position: absolute;
+           width: 98px;
+           height: 37px;
+           padding: 5% 0 0 7%; 
+         }
+     }  
+ 
+ @media (max-width: 799px) { 
+     .girl {
+         background: none
+      }
+     }
+ 
+ @media (max-width: 799px) { 
+     .new-сollection {
+         background: url(../img/girl2.jpg) no-repeat;
+         background-size: cover;
+         background-position: 0 92px;          
+     }
+  }
+ 
+  @media (max-width: 799px) { 
+     .title {
+         top: 80%;
+         width: 15%;
+         font-size: 50px;
+         line-height: 52px;
+         left: 30%;
+     }
+      } 
+ 
+ @media (max-width: 800px) {      
+      .galka  {
+         position: absolute;
+         left: 45%;
+         top: 95%;
+     }
+ } 
+ 
  @media (max-width: 630px) { 
-    .title {
-        top: 83%;
-        width: 15%;
-        font-size: 40px;
-        line-height: 42px;
-        left: 20%;
-    }
-     } 
-
-@media (max-width: 630px) {      
-     .galka  {
-        position: absolute;
-        left: 45%;
-        top: 95%;
-    }
-} 
-
-@media (max-width: 499px) { 
-    .title {
-        top: 65%;
-        font-size: 25px;
-        line-height: 22px;
-    }
-     } 
-
-@media (max-width: 499px) {      
-     .galka  {
-        left: 40%;
-        top: 75%;
-    }
-} 
-
-@media (max-width: 499px) { 
-    .new-сollection {
-        background: url(../img/girl2.jpg) no-repeat;
-        background-position: 20% 36%; 
-        margin-left: 10%;
-    }
- }
+     .new-сollection {
+         background: url(../img/girl2.jpg) no-repeat;
+         background-size: co;
+         background-position: -50px 92px; 
+     }
+  }
+ 
+  @media (max-width: 630px) { 
+     .title {
+         top: 83%;
+         width: 15%;
+         font-size: 40px;
+         line-height: 42px;
+         left: 25%;
+     }
+      } 
+ 
+ @media (max-width: 630px) {      
+      .galka  {
+         position: absolute;
+         left: 45%;
+         top: 95%;
+     }
+ } 
+ 
+ @media (max-width: 440px) { 
+     .title {
+         top: 65%;
+         font-size: 25px;
+         line-height: 22px;
+         left: 30%;
+     }
+      } 
+ 
+ @media (max-width: 440px) {      
+      .galka  {
+         left: 40%;
+         top: 75%;
+     }
+ } 
+ 
+ @media (max-width: 440px) { 
+     .new-сollection {
+         background: url(../img/girl2.jpg) no-repeat;
+         background-position: -25px 36%; 
+     }
+  }
