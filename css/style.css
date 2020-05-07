@@ -381,7 +381,7 @@ height: 0px;
  @media (max-width: 799px) { 
      .new-сollection {
          background: url(../img/girl2.jpg) no-repeat;
-         background-size: cover;
+         background-size: 125%;
          background-position: 0 92px;        
      }
   }
@@ -407,7 +407,7 @@ height: 0px;
  @media (max-width: 630px) { 
      .new-сollection {
          background: url(../img/girl2.jpg) no-repeat;
-         background-size: 100% 100%;
+         background-size: cover;
          background-position: -50px 92px; 
      }
   }
