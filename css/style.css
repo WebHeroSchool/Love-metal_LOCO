@@ -197,7 +197,7 @@ body {
   font-size: 16px;
   line-height: 16px;
   letter-spacing: 1px;
-  opacity: .5;
+  opacity: 0.5;
   position: absolute;
   width: 220px;
   height: 17px;
@@ -459,7 +459,7 @@ span {
      }
 }
  
-@media (max-width: 1200px) { 
+@media (max-width: 1200px) {
   .new-сollection__main-link {
     width: 50%;
     margin-left: 3%;
@@ -492,7 +492,7 @@ span {
     }
 }
 
-@media (max-width: 961px) { 
+@media (max-width: 961px) {
   .new-collection__background {
     max-width: 45%;
     min-height: 900px;
@@ -511,7 +511,7 @@ span {
    } 
 }
 
-@media (min-width: 800px) { 
+@media (min-width: 800px) {
   .logo-mobil,
   .galka,
   .new-collection__background_girl {
@@ -528,7 +528,7 @@ span {
   .new-сollection__main-card,
   .new-collection__background {
     display: none;
-    } 
+    }
 } 
  
 @media (max-width: 800px) { 
@@ -540,7 +540,7 @@ span {
     }
 }  
  
-@media (max-width: 799px) { 
+@media (max-width: 799px) {
   .girl {
     background: none;
     }
@@ -564,7 +564,7 @@ span {
      }
 } 
  
-@media (max-width: 800px) {      
+@media (max-width: 800px) {
   .galka  {
     position: absolute;
     left: 45%;
@@ -590,7 +590,7 @@ span {
      }
 } 
  
-@media (max-width: 630px) {      
+@media (max-width: 630px) {  
   .galka  {
     position: absolute;
     left: 45%;
@@ -598,17 +598,17 @@ span {
      }
 } 
  
-@media (max-width: 440px) { 
+@media (max-width: 440px) {
   .title {
     top: 65%;
     font-size: 25px;
     line-height: 22px;
     left: 30%;
      }
-} 
- 
+}
+
 @media (max-width: 440px) {
-  .galka  {
+  .galka {
     left: 40%;
     top: 75%;
      }
@@ -618,5 +618,5 @@ span {
   .new-сollection {
     background: url(../img/girl2.jpg) no-repeat;
     background-position: -25px 36%;
-     }
+    }
 }
