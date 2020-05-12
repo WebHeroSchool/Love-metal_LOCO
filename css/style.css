@@ -210,7 +210,7 @@ body {
   font-weight: normal;
   font-size: 15px;
   line-height: 21px;
-  opacity: .5;
+  opacity: 0.5;
   position: absolute;
   width: 368px;
   height: 148px;
@@ -290,19 +290,6 @@ body {
   top: 1068px;
   background: #fff;
 }
-/*
-.bag__title-bold {
-  position: absolute;
-  width: 400px;
-  height: 41px;
-  left: 55px;
-  top: 40px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 41px;
-  color: #000000;
- }*/
 
 .bag__color {
   position: absolute;
@@ -419,7 +406,7 @@ span {
      }
 }
  
-@media (max-width: 1500px) { 
+@media (max-width: 1500px) {
   .new-сollection__main-card {
     width: 38%;
     left: 55%;
@@ -481,7 +468,7 @@ span {
      }
 }
  
-@media (max-width: 1200px) { 
+@media (max-width: 1200px) {
   .new-сollection-arrow {
     width: 10%;
      } 
@@ -506,13 +493,13 @@ span {
 }
 
 @media (max-width: 961px) { 
-   .new-collection__background {
+  .new-collection__background {
     max-width: 45%;
     min-height: 900px;
     }
 }
 
-@media (max-width: 961px) { 
+@media (max-width: 961px) {
   .logo {
     margin-right: 20%;
     }
@@ -559,7 +546,7 @@ span {
     }
 }
  
-@media (max-width: 799px) { 
+@media (max-width: 799px) {
   .new-сollection {
     background: url(../img/girl2.jpg) no-repeat;
     background-size: 125%;
@@ -589,7 +576,7 @@ span {
   .new-сollection {
     background: url(../img/girl2.jpg) no-repeat;
     background-size: cover;
-    background-position: -50px 92px; 
+    background-position: -50px 92px;
      }
 }
  
@@ -620,16 +607,16 @@ span {
      }
 } 
  
-@media (max-width: 440px) {      
+@media (max-width: 440px) {
   .galka  {
     left: 40%;
     top: 75%;
      }
-} 
- 
-@media (max-width: 440px) { 
+}
+
+@media (max-width: 440px) {
   .new-сollection {
     background: url(../img/girl2.jpg) no-repeat;
-    background-position: -25px 36%; 
+    background-position: -25px 36%;
      }
 }
