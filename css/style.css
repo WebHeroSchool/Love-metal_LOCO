@@ -452,7 +452,7 @@ span {
     }
 }
  
-@media (max-width: 1200px) { 
+@media (max-width: 1200px) {
   .new-сollection__main-button {
     width: 35%;
     font-size: 8px;
@@ -480,13 +480,13 @@ span {
      }
 }
 
-@media (max-width: 961px) { 
+@media (max-width: 961px) {
   .new-сollection__main-card {
     margin-top: 5%;
     }
 }
 
-@media (max-width: 961px) { 
+@media (max-width: 961px) {
   .new-сollection__main-link {
     margin-right: -5%;
     }
@@ -508,7 +508,7 @@ span {
 @media (max-width: 961px) {
   .new-сollection-main-link {
     margin-left: 5%;
-   } 
+   }
 }
 
 @media (min-width: 800px) {
@@ -516,10 +516,10 @@ span {
   .galka,
   .new-collection__background_girl {
     display: none;
-    } 
-} 
+    }
+}
  
-@media (max-width: 799px) { 
+@media (max-width: 799px) {
   .logo,
   .lang,
   .check,
@@ -529,23 +529,23 @@ span {
   .new-collection__background {
     display: none;
     }
-} 
- 
-@media (max-width: 800px) { 
+}
+
+@media (max-width: 800px) {
   .logo-mobil {
     position: absolute;
     width: 98px;
     height: 37px;
     padding: 5% 0 0 7%;
     }
-}  
- 
+}
+
 @media (max-width: 799px) {
   .girl {
     background: none;
     }
 }
- 
+
 @media (max-width: 799px) {
   .new-сollection {
     background: url(../img/girl2.jpg) no-repeat;
@@ -553,7 +553,7 @@ span {
     background-position: 0 92px;
      }
 }
- 
+
 @media (max-width: 799px) {
   .title {
     top: 80%;
@@ -562,25 +562,25 @@ span {
     line-height: 52px;
     left: 30%;
      }
-} 
- 
+}
+
 @media (max-width: 800px) {
   .galka  {
     position: absolute;
     left: 45%;
     top: 95%;
      }
-} 
- 
-@media (max-width: 630px) { 
+}
+
+@media (max-width: 630px) {
   .new-сollection {
     background: url(../img/girl2.jpg) no-repeat;
     background-size: cover;
     background-position: -50px 92px;
      }
 }
- 
-@media (max-width: 630px) { 
+
+@media (max-width: 630px) {
   .title {
     top: 83%;
     width: 15%;
@@ -588,16 +588,16 @@ span {
     line-height: 42px;
     left: 25%;
      }
-} 
- 
-@media (max-width: 630px) {  
-  .galka  {
+}
+
+@media (max-width: 630px) {
+  .galka {
     position: absolute;
     left: 45%;
     top: 95%;
      }
-} 
- 
+}
+
 @media (max-width: 440px) {
   .title {
     top: 65%;
@@ -618,5 +618,5 @@ span {
   .new-сollection {
     background: url(../img/girl2.jpg) no-repeat;
     background-position: -25px 36%;
-    }
+  }
 }
