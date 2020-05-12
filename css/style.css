@@ -45,7 +45,7 @@ body {
   position: absolute;
   width: 98px;
   height: 37px;
-  padding: 5% 0 0 20%; 
+  padding: 5% 0 0 20%;
 }
 
 .lang {
@@ -58,7 +58,7 @@ body {
   position: absolute;
   top: 0;
   right: 0;
- }
+}
 
  .new-сollection__menu-box {
   opacity: 0.05;
@@ -70,7 +70,7 @@ body {
  .menu {
   position: absolute;
   top: 40%;
-  right: 30%; 
+  right: 30%;
  }
 
  .girl {
@@ -172,6 +172,7 @@ body {
   top: 12px;
   right: 12px;
 }
+
 .img {
   position: absolute;
   top: 3%;
@@ -380,13 +381,13 @@ span {
   .new-сollection__social {
     width: 50%;
     }
-}   
+}
 
 @media (max-width: 1500px) {
   .new-сollection__social {
     width: 45%;
     }
-} 
+}
 
 @media (max-width: 1500px) {
   .title {
@@ -396,8 +397,8 @@ span {
     line-height: 52px;
     left: 55%;
     }
-} 
- 
+}
+
 @media (max-width: 1500px) {
   .text {
     width: 35%;
@@ -405,7 +406,7 @@ span {
     height: 60%;
      }
 }
- 
+
 @media (max-width: 1500px) {
   .new-сollection__main-card {
     width: 38%;
@@ -413,7 +414,7 @@ span {
     margin-top: 1%;
      }
 }
-     
+
 @media (max-width: 1500px) {
   .girl {
     width: 50%;
@@ -439,26 +440,26 @@ span {
    }
 }
 
-@media (max-width: 1200px) { 
+@media (max-width: 1200px) {
   .new-сollection__social {
     width: 45%;
     }
 }
 
-@media (max-width: 1200px) { 
+@media (max-width: 1200px) {
   .girl {
     width: 45%;
     right: 60%;
     }
 }
- 
+
 @media (max-width: 1200px) {
   .new-сollection__main-button {
     width: 35%;
     font-size: 8px;
      }
 }
- 
+
 @media (max-width: 1200px) {
   .new-сollection__main-link {
     width: 50%;
@@ -467,11 +468,11 @@ span {
     margin-right: -15%;
      }
 }
- 
+
 @media (max-width: 1200px) {
   .new-сollection-arrow {
     width: 10%;
-     } 
+     }
 }
 
 @media (max-width: 1200px) {
@@ -518,7 +519,7 @@ span {
     display: none;
     }
 }
- 
+
 @media (max-width: 799px) {
   .logo,
   .lang,
@@ -565,7 +566,7 @@ span {
 }
 
 @media (max-width: 800px) {
-  .galka  {
+  .galka {
     position: absolute;
     left: 45%;
     top: 95%;
@@ -611,7 +612,7 @@ span {
   .galka {
     left: 40%;
     top: 75%;
-     }
+  }
 }
 
 @media (max-width: 440px) {
