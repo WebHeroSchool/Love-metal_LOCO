@@ -3,6 +3,7 @@ body {
     font-family: 'montserrat-normal', sans-serif;
 }
 
+
 .body {
     max-width: 1440px;
     min-width: 350px;
@@ -406,13 +407,13 @@ span {
     .new-сollection__social {
         width: 50%;
     }
-    }   
+ }   
 
 @media (max-width: 1500px) { 
     .new-сollection__social {
         width: 45%;
-        }
-        } 
+    }
+} 
 
 @media (max-width: 1500px) { 
     .title {
@@ -422,7 +423,7 @@ span {
         line-height: 52px;
         left: 55%;
     }
-     } 
+} 
  
  @media (max-width: 1500px) { 
      .text {
@@ -462,14 +463,14 @@ span {
  @media (min-width: 1270px) { 
 .body {
     margin: 0 auto;
-}
+   }
 }
 
 @media (max-width: 1200px) { 
     .new-сollection__social {
         width: 45%;
     }
-    }
+}
 
 @media (max-width: 1200px) { 
     .girl {
@@ -498,32 +499,32 @@ span {
       .new-сollection-arrow {
          width: 10%;
      } 
-      }
+}
 
 @media (max-width: 1200px) { 
       .new-сollection__social {
         width: 47%;
      }
-        }
+}
 
 @media (max-width: 961px) { 
-    .new-сollection__main-card {
+      .new-сollection__main-card {
         margin-top: 5%;
-          }
     }
+}
 
     @media (max-width: 961px) { 
-        .new-сollection__main-link {
-            margin-right: -5%;
-        }
+      .new-сollection__main-link {
+        margin-right: -5%;
     }
+}
 
     @media (max-width: 961px) { 
-        .new-collection__background {
-            max-width: 45%;
-            min-height: 900px;
-        }
+      .new-collection__background {
+        max-width: 45%;
+        min-height: 900px;
     }
+}
 
     
     @media (max-width: 961px) { 
@@ -536,15 +537,15 @@ span {
     .new-сollection-main-link {
        margin-left: 5%;
    } 
-    }
+}
 
  @media (min-width: 800px) { 
      .logo-mobil,
      .galka,
      .new-collection__background_girl {
          display: none;
-         } 
-     } 
+    } 
+} 
  
  @media (max-width: 799px) { 
      .logo,
@@ -555,8 +556,8 @@ span {
      .new-сollection__main-card,
      .new-collection__background {
           display: none;
-         } 
-     } 
+    } 
+} 
  
  @media (max-width: 800px) { 
      .logo-mobil {
@@ -564,14 +565,14 @@ span {
            width: 98px;
            height: 37px;
            padding: 5% 0 0 7%; 
-         }
-     }  
+    }
+}  
  
  @media (max-width: 799px) { 
      .girl {
          background: none
-      }
-     }
+    }
+}
  
  @media (max-width: 799px) { 
      .new-сollection {
@@ -579,7 +580,7 @@ span {
          background-size: 125%;
          background-position: 0 92px;        
      }
-  }
+}
  
   @media (max-width: 799px) { 
      .title {
@@ -589,7 +590,7 @@ span {
          line-height: 52px;
          left: 30%;
      }
-      } 
+} 
  
  @media (max-width: 800px) {      
       .galka  {
@@ -597,7 +598,7 @@ span {
          left: 45%;
          top: 95%;
      }
- } 
+} 
  
  @media (max-width: 630px) { 
      .new-сollection {
@@ -605,7 +606,7 @@ span {
          background-size: cover;
          background-position: -50px 92px; 
      }
-  }
+}
  
   @media (max-width: 630px) { 
      .title {
@@ -615,7 +616,7 @@ span {
          line-height: 42px;
          left: 25%;
      }
-      } 
+} 
  
  @media (max-width: 630px) {      
       .galka  {
@@ -623,7 +624,7 @@ span {
          left: 45%;
          top: 95%;
      }
- } 
+} 
  
  @media (max-width: 440px) { 
      .title {
@@ -632,18 +633,18 @@ span {
          line-height: 22px;
          left: 30%;
      }
-      } 
+} 
  
  @media (max-width: 440px) {      
       .galka  {
          left: 40%;
          top: 75%;
      }
- } 
+} 
  
  @media (max-width: 440px) { 
      .new-сollection {
          background: url(../img/girl2.jpg) no-repeat;
          background-position: -25px 36%; 
      }
-  }
+}
