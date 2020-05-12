@@ -440,9 +440,10 @@ span {
   }
 }
 
-@media (max-width: 1201px) {
+@media (max-width: 1200px) {
   .new-сollection__social {
     width: 45%;
+  }
 }
 
 @media (max-width: 1200px) {
