@@ -39,9 +39,6 @@ body {
   max-height: 37px;
   margin-top: 40px;
   margin-left: 52px;
-}
-
-.logo {
   cursor: pointer;
 }
 
@@ -387,23 +384,20 @@ body {
   width: 38px;
   height: 38px;
   border-radius: 50%;
+  background:#f29f9f;
+  border: 1px solid #f29f9f;
 }
 
 .color-wight {
   background: #ded;
 }
 
-.color-pink {
-  background:#f29f9f;
-  border: 1px solid #f29f9f;
-}
-
 .color-blue {
-  background: #a8bff9;
+  background:#a8bff9;
 }
 
 .color-green {
-  background:#90bd8f;
+  background: #90bd8f;
 }
 
 span {
@@ -467,7 +461,6 @@ span {
   top: 1665px;
 }
 
-
 /* Третья секция */
 
 .total-look {
@@ -475,7 +468,7 @@ span {
   width: 1440px;
   height: 900px;
   top: 1800px;
-  background: #EBE3D8;
+  background: #ebe3d8;
 }
 
 .things {
@@ -497,7 +490,7 @@ span {
   height: 351px;
   left: 817px;
   top: 255px;
-  background: #FAE8E4;
+  background: #fae8e4;
 }
 
 .total-look__button-number {
@@ -525,7 +518,6 @@ span {
   position: absolute;
   left: 1183.5px;
   top: 638px;
-  position: absolute;
   width: 108px;
 }
 
@@ -550,7 +542,7 @@ span {
   align-items: flex-end;
 }
 
-/* Медиа запросы 1 секции*/
+/* Медиа запросы 1 секции */
 
 @media (max-width: 3000px) {
   .new-сollection__social {
@@ -640,7 +632,6 @@ span {
   .new-сollection__main-link {
     width: 50%;
     margin-left: 3%;
-    font-size: 10px;
     margin-right: -7%;
     font-size: 13px;
   }
