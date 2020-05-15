@@ -41,6 +41,14 @@ body {
   margin-left: 52px;
 }
 
+.logo {
+  cursor: pointer;
+}
+
+.logo:hover {
+  opacity: 0.5;
+}
+
 .logo-mobil {
   position: absolute;
   width: 98px;
@@ -52,20 +60,33 @@ body {
   margin-top: 42px;
 }
 
+.check {
+  cursor: pointer;
+}
+
+.check:hover {
+  opacity: 0.5;
+}
+
 .new-сollection__menu {
   width: 92px;
   height: 92px;
   position: absolute;
   top: 0;
   right: 0;
+  cursor: pointer;
 }
 
- .new-сollection__menu-box {
+.new-сollection__menu:hover {
+  background-color: pink;
+}
+
+.new-сollection__menu-box {
   opacity: 0.05;
   background: #000;
   width: 92px;
   height: 92px;
- }
+}
 
  .menu {
   position: absolute;
@@ -131,6 +152,11 @@ body {
 .new-сollection__main-button {
   width: 203px;
   height: 44px;
+  cursor: pointer;
+}
+
+.new-сollection__main-button:hover {
+  background-color: pink;
 }
 
 .link {
@@ -147,6 +173,18 @@ body {
   height: 0;
 }
 
+.new-сollection__main-link:hover {
+  color: hotpink;
+}
+
+.new-сollection-arrow {
+  cursor: pointer;
+}
+
+.new-сollection-arrow:hover {
+  opacity: 0.5;
+}
+
 .new-сollection__social {
   display: flex;
   align-items: center;
@@ -157,14 +195,33 @@ body {
 
 .instagram {
   margin-right: 15px;
+  cursor: pointer;
+}
+
+.instagram:hover {
+  opacity: 0.5;
 }
 
 .vk {
   margin-right: 15px;
+  cursor: pointer;
+}
+
+.vk:hover {
+  opacity: 0.5;
 }
 
 .fb {
   margin-right: 500px;
+  cursor: pointer;
+}
+
+.fb:hover {
+  opacity: 0.5;
+}
+
+.new-сollection__img-line:hover {
+  opacity: 0.5;
 }
 
 .line {
@@ -188,7 +245,7 @@ body {
   width: 400px;
   height: 41px;
   left: 55px;
-  top: 40px;
+  top: 20px;
   color: #000;
 }
 
@@ -203,7 +260,7 @@ body {
   width: 220px;
   height: 17px;
   left: 55px;
-  top: 98px;
+  top: 85px;
 }
 
 .bag-text {
@@ -232,6 +289,9 @@ body {
   font-weight: bold;
   font-size: 40px;
   line-height: 41px;
+  height: 41px;
+  margin-left: 47px;
+  top: 34px;
 }
 
 .bag-title {
@@ -241,6 +301,11 @@ body {
   line-height: 16px;
   letter-spacing: 1px;
   opacity: 0.5;
+  position: absolute;
+  width: 220px;
+  height: 17px;
+  margin: 0 0 0 47px;
+  top: 92px;
 }
 
 .total-look__text {
@@ -249,6 +314,12 @@ body {
   font-size: 15px;
   line-height: 21px;
   opacity: 0.5;
+  position: absolute;
+  width: 368px;
+  height: 101px;
+  left: 50px;
+  top: 144px;
+  margin: 0;
 }
 
 .name {
@@ -256,6 +327,11 @@ body {
   font-weight: bold;
   font-size: 12px;
   line-height: 15px;
+  position: absolute;
+  width: 115px;
+  height: 15px;
+  left: 1210px;
+  top: 863px;
 }
 
 /* Cтили 2й секции ниже */
@@ -303,15 +379,31 @@ body {
 .color-green {
   width: 30.18px;
   height: 30px;
+  border-radius: 50%;
+  border: none;
 }
 
 .color-pink {
   width: 38px;
   height: 38px;
+  border-radius: 50%;
 }
 
 .color-wight {
   background: #ded;
+}
+
+.color-pink {
+  background:#f29f9f;
+  border: 1px solid #f29f9f;
+}
+
+.color-blue {
+  background: #a8bff9;
+}
+
+.color-green {
+  background:#90bd8f;
 }
 
 span {
@@ -371,11 +463,94 @@ span {
 .bag__arrow {
   position: absolute;
   width: 241px;
-  left: 1407px;
+  margin-left: 1119.5px;
   top: 1665px;
 }
 
-/* Медиа запросы */
+
+/* Третья секция */
+
+.total-look {
+  position: absolute;
+  width: 1440px;
+  height: 900px;
+  top: 1800px;
+  background: #EBE3D8;
+}
+
+.things {
+  position: absolute;
+  left: 90px;
+  top: 139px;
+}
+
+.total-look__background {
+  position: absolute;
+  width: 73px;
+  height: 900px;
+  left: 388px;
+}
+
+.total-look__card {
+  position: absolute;
+  width: 475px;
+  height: 351px;
+  left: 817px;
+  top: 255px;
+  background: #FAE8E4;
+}
+
+.total-look__button-number {
+  left: 47px;
+  top: 262px;
+}
+
+.total-look__button {
+  position: absolute;
+  width: 253px;
+  height: 44px;
+  left: 162px;
+  top: 262px;
+}
+
+.total-look__link {
+  position: absolute;
+  width: 299px;
+  height: 14px;
+  left: 948px;
+  top: 643px;
+}
+
+.total-look__arrow {
+  position: absolute;
+  left: 1183.5px;
+  top: 638px;
+  position: absolute;
+  width: 108px;
+}
+
+.letters-yellow {
+  position: absolute;
+  left: 1333px;
+  top: 853px;
+  width: 82px;
+  height: 22px;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+}
+
+.letters-black {
+  position: absolute;
+  height: 5.22px;
+  left: 1382px;
+  top: 877.1px;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+}
+
+/* Медиа запросы 1 секции*/
 
 @media (max-width: 3000px) {
   .new-сollection__social {
@@ -457,6 +632,7 @@ span {
   .new-сollection__main-button {
     width: 35%;
     font-size: 8px;
+    font-size: 13px;
   }
 }
 
@@ -465,7 +641,8 @@ span {
     width: 50%;
     margin-left: 3%;
     font-size: 10px;
-    margin-right: -15%;
+    margin-right: -7%;
+    font-size: 13px;
   }
 }
 
@@ -478,6 +655,19 @@ span {
 @media (max-width: 1200px) {
   .new-сollection__social {
     width: 47%;
+  }
+}
+
+@media (max-width: 1010px) {
+  .new-сollection__main-button {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 1010px) {
+  .new-сollection__main-link {
+    margin-right: -10%;
+    font-size: 10px;
   }
 }
 
@@ -512,7 +702,7 @@ span {
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 801px) {
   .logo-mobil,
   .galka,
   .new-collection__background_girl {
@@ -520,7 +710,13 @@ span {
   }
 }
 
-@media (max-width: 799px) {
+@media (max-width: 1010px) {
+  .new-сollection__main-button {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 800px) {
   .logo,
   .lang,
   .check,
@@ -532,7 +728,7 @@ span {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 801px) {
   .logo-mobil {
     position: absolute;
     width: 98px;
@@ -541,13 +737,13 @@ span {
   }
 }
 
-@media (max-width: 799px) {
+@media (max-width: 800px) {
   .girl {
     background: none;
   }
 }
 
-@media (max-width: 799px) {
+@media (max-width: 800px) {
   .new-сollection {
     background: url(../img/girl2.jpg) no-repeat;
     background-size: 125%;
@@ -555,7 +751,7 @@ span {
   }
 }
 
-@media (max-width: 799px) {
+@media (max-width: 800px) {
   .title {
     top: 80%;
     width: 15%;
@@ -565,7 +761,7 @@ span {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 801px) {
   .galka {
     position: absolute;
     left: 45%;
@@ -619,5 +815,25 @@ span {
   .new-сollection {
     background: url(../img/girl2.jpg) no-repeat;
     background-position: -25px 36%;
+  }
+}
+
+/* Медиа запросы 2й секции */
+
+@media (max-width: 1300px) {
+  .bag__wight {
+    width: 30%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .bag__pink {
+    width: 40%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .card {
+    width: 40%;
   }
 }
