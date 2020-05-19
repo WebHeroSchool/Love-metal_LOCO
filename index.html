@@ -9,14 +9,18 @@
     <title>LOCO</title>
 </head>
 <body>
+    <section class="body">
     <!--1я секция -->
+
     <section class="new-сollection">
         <img src="img/backgroung.png" alt="" class="new-collection__background">   
         <header class="new-сollection__header">
             <img src="img/logo.svg" alt="logo" class="logo">
-            <img src="img/loco2.svg" alt="logo" class="logo-mobil">
+            <img src="./img/LOCO2.svg" alt="logo" class="logo-mobil">
             <img src="img/lang.svg" alt="lang" class="lang">
-            <img src="img/check.svg" alt="check" class="check">
+            <a href="#" class="check">
+                <img src="img/check.svg" alt="check" class="check">
+            </a>
             <div class="new-сollection__menu">
                 <div class="new-сollection__menu-box"></div>
                 <img src="img/lines.svg" alt="" class="menu">
@@ -26,7 +30,7 @@
             <div class="girl">
                 <div class="new-сollection__social">
                     <a href="#">
-                        <img src="img/inst.svg" alt="instagram" class="instagram">
+                        <img src="./img/INST.svg" alt="instagram" class="instagram">
                     </a>
                     <a href="#">
                         <img src="img/vk.svg" alt="vk" class="vk">
@@ -49,7 +53,7 @@
            <div class="new-сollection__main-card">
             <button class="button new-сollection__main-button">ЧИТАТЬ ДАЛЬШЕ</button>
             <a class="link new-сollection__main-link" href="#">ДРУГИЕ ПРЕДЛОЖЕНИЯ</a>
-            <img src="img/arrow.svg" alt="arrow" class="arrow">
+            <img src="img/arrow.svg" alt="arrow" class="arrow new-сollection-arrow">
             </div>
             
         </main>
@@ -62,45 +66,46 @@
     <img src="img/pink-bag.png" alt="bag-pink" class="bag__pink">
     <div class="card">
         <h2 class="bag__title-bold">Кожаный клатч</h2>
-        <h4 class="bag__title">осенняя коллекция</h4>
+        <h4 class="bag__title">ОСЕННЯЯ КОЛЛЕКЦИЯ</h4>
         <p class="bag-text">Бесплатная доставка включена. Предложение действует на сайте loco.com и в магазинах до 18.09.2018. 
         Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с 
         другими акциями, предложениями и распродажей.</p>
-        <input type="radio" name="color" class="color-wight">
-        <input type="radio" name="color" class="color-pink">
-        <input type="radio" name="color" class="color-blue">
-        <input type="radio" name="color" checked class="color-green">
+        <div class="bag__color">
+        <input type="button" name="color" class="color-wight">
+        <input type="button" name="color" class="color-pink" checked>
+        <input type="button" name="color" class="color-blue">
+        <input type="button" name="color" class="color-green">
+        </div>
         <span>1990₽</span>
         <div class="button button-number">
             <button class="button button-minus">-</button>
-            <span>1</span>
+            <div>1</div>
             <button class="button button-plus">+</button>
         </div>
-        <button class="button">ДОБАВИТЬ В КОРЗИНУ</button>
+        <button class="bag__button button">ДОБАВИТЬ В КОРЗИНУ</button>
     </div>
-    <a class="link" href="#">ДРУГИЕ ТОВАРЫ НА LOCO.COM</a>
-    <img src="img/arrow-long.svg" alt="arrow" class="arrow">
+    <a class="bag__link link" href="#">ДРУГИЕ ТОВАРЫ НА LOCO.COM</a>
+    <img src="img/arrow-long.svg" alt="arrow" class="arrow bag__arrow">
 </section>
 -->
 <!--3я секция-->
 <!--
 <section class="total-look">
+    <img src="img/background-look.png" alt="" class="total-look__background"> 
     <img src="img/things.png" alt="things" class="things">
-    <div class="card">
+    <div class="total-look__card">
         <h2 class="bag-title-bold">Serene Total Look</h2>
         <h4 class="bag-title">осенняя коллекция</h4>
         <p class="total-look__text">Джинсы, свитер, обувь.<br> В комплект также входит пакет ароматного чая и кружка.</p>
-        <div class="button button-number">
+        <div class="button button-number total-look__button-number">
             <button class="button button-minus">-</button>
-            <span>1</span>
+            <div>1</div>
             <button class="button button-plus">+</button>
         </div>
-        <button class="button">ДОБАВИТЬ В КОРЗИНУ</button>
+        <button class="button total-look__button">ДОБАВИТЬ В КОРЗИНУ</button>
     </div>
-    <a class="link" href="#">ДРУГИЕ ТОВАРЫ НА LOCO.COM</a>
-    <img src="img/arrow-long.svg" alt="arrow" class="arrow">
-    <img src="img/background-look.png" alt="" class="total-look__background">  
-</section>
+    <a class="link total-look__link" href="#">ДРУГИЕ ТОВАРЫ НА LOCO.COM</a>
+    <img src="img/vector-arrow.svg" alt="arrow" class="arrow total-look__arrow"> 
 <footer class="footer">
     <div class="name">РАЗРАБОТАНО В</div>
     <div class="letters-yellow">
@@ -121,7 +126,8 @@
         <img src="img/13.svg" alt="letter" class="letter-black">   
     </div>
     </footer>
+</section>
 -->
-
+</section>
 </body>
 </html>

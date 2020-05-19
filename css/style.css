@@ -1,6 +1,11 @@
 body {
-    color: #000000;
-    font-family: 'montserrat-normal', sans-serif;
+  color: #000000;
+  font-family: 'montserrat-normal', sans-serif;
+}
+
+.body {
+  max-width: 1440px;
+  min-width: 350px;
 }
 
 .title,
@@ -9,285 +14,817 @@ body {
 .bag-title-bold,
 .bag-title,
 .name {
-    font-family: 'montserrat-bold', sans-serif;
+  font-family: 'montserrat-bold', sans-serif;
 }
 
 /* 1 section*/
 
 .new-collection__background {
-    position: absolute;
-    max-width: 461px;
-    max-height: 900px;
+  max-width: 461px;
+  height: 906px;
+  position: absolute;
+  background-size: 100% auto;
 }
 
 .new-сollection__header,
 .new-сollection__main,
 .new-сollection__menu,
 .new-сollection__menu {
-    position: relative;
+  position: relative;
 }
 
 .logo {
-    margin-right: 238px;
-    max-width: 98px;
-    max-height: 37px;
-    margin-top: 40px;
-    margin-left: 52px;
+  margin-right: 238px;
+  max-width: 98px;
+  max-height: 37px;
+  margin-top: 40px;
+  margin-left: 52px;
+  cursor: pointer;
+}
+
+.logo:hover {
+  opacity: 0.5;
 }
 
 .logo-mobil {
-    position: absolute;
-    width: 98px;
-    height: 37px;
-    padding: 5% 0 0 20%; 
+  position: absolute;
+  width: 98px;
+  height: 37px;
+  padding: 5% 0 0 20%;
 }
 
 .lang {
-    margin-top: 42px;
+  margin-top: 42px;
+}
+
+.check {
+  cursor: pointer;
+}
+
+.check:hover {
+  opacity: 0.5;
 }
 
 .new-сollection__menu {
-    width: 92px;
-    height: 92px;
-    position: absolute;
-    top: 0;
-    right: 0;
- }
+  width: 92px;
+  height: 92px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
 
- .new-сollection__menu-box {
-    opacity: 0.05;
-    background: #000;
-    width: 92px;
-    height: 92px;
- }
+.new-сollection__menu:hover {
+  background-color: pink;
+}
+
+.new-сollection__menu-box {
+  opacity: 0.05;
+  background: #000;
+  width: 92px;
+  height: 92px;
+}
 
  .menu {
-     position: absolute;
-     top: 40%;
-     right: 30%; 
+  position: absolute;
+  top: 40%;
+  right: 30%;
  }
 
  .girl {
-    max-width: 855.54px;
-    height: 839px;
-    left: 49.28px;
-    top: 60.92px;
-    margin-left: 50px;
-    background: url(../img/girl.png) no-repeat center top 100px;
+  max-width: 855.54px;
+  height: 839px;
+  left: 49.28px;
+  top: 60.92px;
+  margin-left: 50px;
+  background: url(../img/girl.png) no-repeat center top 100px;
  }
 
 .title {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 80px;
-    line-height: 82px;
-    position: absolute;
-    width: 475px;
-    height: 164px;
-    left: 789px;
-    top: 210px;
-    margin: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 82px;
+  position: absolute;
+  width: 475px;
+  height: 164px;
+  left: 789px;
+  top: 210px;
+  margin: 0;
 }
 
 .text {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 21px;
-    color: #000000;
-    position: absolute;
-    width: 467px;
-    height: 127px;
-    left: 789px;
-    top: 372px;
-    margin-bottom: 36px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 21px;
+  color: #000000;
+  position: absolute;
+  width: 467px;
+  height: 127px;
+  left: 789px;
+  top: 372px;
+  margin-bottom: 36px;
 }
 
 .new-сollection__main-card {
-    position: absolute;
-    left: 789px;
-    top: 550px;
-    display: flex;
-    width: 475px;
-    align-items: center;
-    justify-content: space-between;
+  position: absolute;
+  left: 789px;
+  top: 550px;
+  display: flex;
+  width: 475px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .button {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 0;
-    border: 1.5px solid #000;
-    background-color: #fff;
-   
-     
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 0;
+  border: 1.5px solid #000;
+  background-color: #fff;
 }
 
 .new-сollection__main-button {
-    width: 203px;
-    height: 44px; 
+  width: 203px;
+  height: 44px;
+  cursor: pointer;
+}
+
+.new-сollection__main-button:hover {
+  background-color: pink;
 }
 
 .link {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 0px;
-    color: #000;
-    text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 0px;
+  color: #000;
+  text-decoration: none;
 }
 
 .new-сollection__main-link {
-width: 172px;
-height: 0px;
+  width: 172px;
+  height: 0;
+}
+
+.new-сollection__main-link:hover {
+  color: hotpink;
+}
+
+.new-сollection-arrow {
+  cursor: pointer;
+}
+
+.new-сollection-arrow:hover {
+  opacity: 0.5;
 }
 
 .new-сollection__social {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    top: 752px;
-    position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  top: 752px;
+  position: absolute;
 }
 
 .instagram {
-    margin-right: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.instagram:hover {
+  opacity: 0.5;
 }
 
 .vk {
-    margin-right: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.vk:hover {
+  opacity: 0.5;
 }
 
 .fb {
-    margin-right: 500px;
+  margin-right: 500px;
+  cursor: pointer;
+}
+
+.fb:hover {
+  opacity: 0.5;
+}
+
+.new-сollection__img-line:hover {
+  opacity: 0.5;
 }
 
 .line {
-    position: absolute;
-    top: 12px;
-    right: 12px;
+  position: absolute;
+  top: 12px;
+  right: 12px;
 }
+
 .img {
-    position: relative;
+  position: absolute;
+  top: 3%;
+  right: 0;
 }
+
 .bag__title-bold {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 41px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 41px;
+  position: absolute;
+  width: 400px;
+  height: 41px;
+  left: 55px;
+  top: 20px;
+  color: #000;
 }
 
 .bag__title {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 16px;
-    letter-spacing: .07em;
-    opacity: .5;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  opacity: 0.5;
+  position: absolute;
+  width: 220px;
+  height: 17px;
+  left: 55px;
+  top: 85px;
 }
 
-.bag-text{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 21px;
-    opacity: .5;
+.bag-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 21px;
+  opacity: 0.5;
+  position: absolute;
+  width: 368px;
+  height: 148px;
+  left: 55px;
+  top: 179px;
+  color: #000;
 }
 
 .product {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 16px; 
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
 }
 
 .bag-title-bold {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 41px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 41px;
+  height: 41px;
+  margin-left: 47px;
+  top: 34px;
 }
 
 .bag-title {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 16px;
-    letter-spacing: .07em;
-    opacity: .5;  
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  opacity: 0.5;
+  position: absolute;
+  width: 220px;
+  height: 17px;
+  margin: 0 0 0 47px;
+  top: 92px;
 }
 
 .total-look__text {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 21px;
-    opacity: .5;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 21px;
+  opacity: 0.5;
+  position: absolute;
+  width: 368px;
+  height: 101px;
+  left: 50px;
+  top: 144px;
+  margin: 0;
 }
 
 .name {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 15px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  position: absolute;
+  width: 115px;
+  height: 15px;
+  left: 1210px;
+  top: 863px;
 }
 
-.new-collection__background {
-    background-size: 100% auto;
+/* Cтили 2й секции ниже */
+
+.bag {
+  background: #fae8e4;
+  height: 900px;
+  margin-top: 0;
+  width: 1440px;
 }
 
+.bag__wight {
+  position: absolute;
+  width: 398px;
+  height: 415px;
+  margin-left: 137px;
+  top: 1117px;
+}
 
-    @media (max-width: 768px) { 
-        .logo,
-        .lang,
-        .check,
-        .new-сollection__social,
-        .text,
-        .new-сollection__main-card,
-        .new-collection__background {
-            display: none;
-            } 
-        } 
+.bag__pink {
+  position: absolute;
+  width: 582px;
+  height: 844px;
+  margin-left: 231px;
+  top: 928px;
+}
 
-        @media (min-width: 768px) { 
-        .logo-mobil,
-        .galka {
-            display: none;
-            } 
-        } 
+.card {
+  position: absolute;
+  width: 488px;
+  height: 556px;
+  margin-left: 879px;
+  top: 1068px;
+  background: #fff;
+}
 
-        @media (max-width: 768px) { 
-            .girl {
-                background-image: none;
-            }
-        }
- 
-        @media (max-width: 768px) { 
-            .new-сollection {
-               background: url(../img/girl2.jpg) no-repeat;
-               background-size: cover contain;      
-               background-position: 0 36%;        
-           }
-        }
+.bag__color {
+  position: absolute;
+  top: 375px;
+  left: 55px;
+}
 
-        @media (max-width: 768px) { 
-            .title {
-                font-size: 50px;
-                line-height: 51px;
-                position: absolute;
-                left: 5%;
-                top: 60%;
-                width: 297px;
-                height: 103px;
-           }
-        }
+.color-wight,
+.color-blue,
+.color-green {
+  width: 30.18px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+}
 
-        @media (max-width: 768px) { 
-            .galka {
-                position: absolute;
-                left: 170px;
-                top: 625px;
-           }
-        }
-       
+.color-pink {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: #f29f9f;
+  border: 1px solid #f29f9f;
+}
+
+.color-wight {
+  background: #ded;
+}
+
+.color-blue {
+  background: #a8bff9;
+}
+
+.color-green {
+  background: #90bd8f;
+}
+
+span {
+  position: absolute;
+  width: 125px;
+  height: 57px;
+  left: 288px;
+  top: 365px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 56px;
+  color: #000;
+}
+
+.button-minus,
+.button-plus {
+  border: none;
+}
+
+.button-number {
+  position: absolute;
+  width: 100px;
+  height: 44px;
+  left: 55px;
+  top: 468px;
+  border: 1.5px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.bag__button {
+  position: absolute;
+  width: 253px;
+  height: 44px;
+  border: 1.5px solid #000;
+  box-sizing: border-box;
+  left: 170px;
+  top: 468px;
+  background: #fff;
+}
+
+.bag__link {
+  position: absolute;
+  width: 299px;
+  height: 58px;
+  margin-left: 884px;
+  top: 1663px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000;
+}
+
+.bag__arrow {
+  position: absolute;
+  width: 241px;
+  margin-left: 1119.5px;
+  top: 1665px;
+}
+
+/* Третья секция */
+
+.total-look {
+  position: absolute;
+  width: 1440px;
+  height: 900px;
+  top: 1800px;
+  background: #ebe3d8;
+}
+
+.things {
+  position: absolute;
+  left: 90px;
+  top: 139px;
+}
+
+.total-look__background {
+  position: absolute;
+  width: 73px;
+  height: 900px;
+  left: 388px;
+}
+
+.total-look__card {
+  position: absolute;
+  width: 475px;
+  height: 351px;
+  left: 817px;
+  top: 255px;
+  background: #fae8e4;
+}
+
+.total-look__button-number {
+  left: 47px;
+  top: 262px;
+}
+
+.total-look__button {
+  position: absolute;
+  width: 253px;
+  height: 44px;
+  left: 162px;
+  top: 262px;
+}
+
+.total-look__link {
+  position: absolute;
+  width: 299px;
+  height: 14px;
+  left: 948px;
+  top: 643px;
+}
+
+.total-look__arrow {
+  position: absolute;
+  left: 1183.5px;
+  top: 638px;
+  width: 108px;
+}
+
+.letters-yellow {
+  position: absolute;
+  left: 1333px;
+  top: 853px;
+  width: 82px;
+  height: 22px;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+}
+
+.letters-black {
+  position: absolute;
+  height: 5.22px;
+  left: 1382px;
+  top: 877.1px;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+}
+
+/* Медиа запросы 1 секции */
+
+@media (max-width: 3000px) {
+  .new-сollection__social {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1500px) {
+  .new-сollection__social {
+    width: 45%;
+  }
+}
+
+@media (max-width: 1500px) {
+  .title {
+    top: 30%;
+    width: 20%;
+    font-size: 50px;
+    line-height: 52px;
+    left: 55%;
+  }
+}
+
+@media (max-width: 1500px) {
+  .text {
+    width: 35%;
+    left: 55%;
+    height: 60%;
+  }
+}
+
+@media (max-width: 1500px) {
+  .new-сollection__main-card {
+    width: 38%;
+    left: 55%;
+    margin-top: 1%;
+  }
+}
+
+@media (max-width: 1500px) {
+  .girl {
+    width: 50%;
+    right: 60%;
+  }
+}
+
+@media (max-width: 1500px) {
+  .new-сollection__social {
+    width: 45.5%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .new-сollection__social {
+    width: 47%;
+  }
+}
+
+@media (min-width: 1270px) {
+  .body {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  .new-сollection__social {
+    width: 45%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .girl {
+    width: 45%;
+    right: 60%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .new-сollection__main-button {
+    width: 35%;
+    font-size: 8px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .new-сollection__main-link {
+    width: 50%;
+    margin-left: 3%;
+    margin-right: -7%;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .new-сollection-arrow {
+    width: 10%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .new-сollection__social {
+    width: 47%;
+  }
+}
+
+@media (max-width: 1010px) {
+  .new-сollection__main-button {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 1010px) {
+  .new-сollection__main-link {
+    margin-right: -10%;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 961px) {
+  .new-сollection__main-card {
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 961px) {
+  .new-сollection__main-link {
+    margin-right: -5%;
+  }
+}
+
+@media (max-width: 961px) {
+  .new-collection__background {
+    max-width: 45%;
+    min-height: 900px;
+  }
+}
+
+@media (max-width: 961px) {
+  .logo {
+    margin-right: 20%;
+  }
+}
+
+@media (max-width: 961px) {
+  .new-сollection-main-link {
+    margin-left: 5%;
+  }
+}
+
+@media (min-width: 801px) {
+  .logo-mobil,
+  .galka,
+  .new-collection__background_girl {
+    display: none;
+  }
+}
+
+@media (max-width: 1010px) {
+  .new-сollection__main-button {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 800px) {
+  .logo,
+  .lang,
+  .check,
+  .new-сollection__social,
+  .text,
+  .new-сollection__main-card,
+  .new-collection__background {
+    display: none;
+  }
+}
+
+@media (max-width: 801px) {
+  .logo-mobil {
+    position: absolute;
+    width: 98px;
+    height: 37px;
+    padding: 5% 0 0 7%;
+  }
+}
+
+@media (max-width: 800px) {
+  .girl {
+    background: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .new-сollection {
+    background: url(../img/girl2.jpg) no-repeat;
+    background-size: 125%;
+    background-position: 0 92px;
+  }
+}
+
+@media (max-width: 800px) {
+  .title {
+    top: 80%;
+    width: 15%;
+    font-size: 50px;
+    line-height: 52px;
+    left: 30%;
+  }
+}
+
+@media (max-width: 801px) {
+  .galka {
+    position: absolute;
+    left: 45%;
+    top: 95%;
+  }
+}
+
+@media (max-width: 630px) {
+  .new-сollection {
+    background: url(../img/girl2.jpg) no-repeat;
+    background-size: cover;
+    background-position: -50px 92px;
+  }
+}
+
+@media (max-width: 630px) {
+  .title {
+    top: 83%;
+    width: 15%;
+    font-size: 40px;
+    line-height: 42px;
+    left: 25%;
+  }
+}
+
+@media (max-width: 630px) {
+  .galka {
+    position: absolute;
+    left: 45%;
+    top: 95%;
+  }
+}
+
+@media (max-width: 440px) {
+  .title {
+    top: 65%;
+    font-size: 25px;
+    line-height: 22px;
+    left: 30%;
+  }
+}
+
+@media (max-width: 440px) {
+  .galka {
+    left: 40%;
+    top: 75%;
+  }
+}
+
+@media (max-width: 440px) {
+  .new-сollection {
+    background: url(../img/girl2.jpg) no-repeat;
+    background-position: -25px 36%;
+  }
+}
+
+/* Медиа запросы 2й секции */
+
+@media (max-width: 1300px) {
+  .bag__wight {
+    width: 30%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .bag__pink {
+    width: 40%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .card {
+    width: 40%;
+  }
+}
