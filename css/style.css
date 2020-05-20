@@ -53,6 +53,11 @@ body {
   padding: 5% 0 0 20%;
 }
 
+.galka:hover,
+.logo-mobil:hover {
+  opacity: 0.5;
+}
+
 .lang {
   margin-top: 42px;
 }
@@ -168,17 +173,15 @@ body {
 .new-сollection__main-link {
   width: 172px;
   height: 0;
+  margin-right: 5%;
+  margin-left: 7%;
 }
 
-.new-сollection__main-link:hover {
-  color: hotpink;
+.new-сollection__link-arrow {
+  width: 300px;
 }
 
-.new-сollection-arrow {
-  cursor: pointer;
-}
-
-.new-сollection-arrow:hover {
+.new-сollection__link-arrow:hover {
   opacity: 0.5;
 }
 
@@ -363,6 +366,7 @@ body {
   margin-left: 879px;
   top: 1068px;
   background: #fff;
+  min-width: 350px;
 }
 
 .bag__color {
@@ -380,12 +384,22 @@ body {
   border: none;
 }
 
+.color-wight:hover,
+.color-blue:hover,
+.color-green:hover {
+opacity: 0.5;
+}
+
 .color-pink {
   width: 38px;
   height: 38px;
   border-radius: 50%;
   background: #f29f9f;
   border: 1px solid #f29f9f;
+}
+
+.color-pink:hover {
+  opacity: 0.5;
 }
 
 .color-wight {
@@ -416,9 +430,17 @@ span {
 .button-minus,
 .button-plus {
   border: none;
+  background: #fae8e4;
 }
 
-.button-number {
+.button-minus:hover,
+.button-plus:hover {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.button-number,
+.bag__button-number {
   position: absolute;
   width: 100px;
   height: 44px;
@@ -439,6 +461,14 @@ span {
   left: 170px;
   top: 468px;
   background: #fff;
+}
+
+.bag__button:hover {
+  background: pink;
+}
+
+.bag__link-arrow:hover {
+  opacity: 0.5;
 }
 
 .bag__link {
@@ -496,6 +526,7 @@ span {
 .total-look__button-number {
   left: 47px;
   top: 262px;
+  background: #fae8e4;
 }
 
 .total-look__button {
@@ -504,6 +535,15 @@ span {
   height: 44px;
   left: 162px;
   top: 262px;
+  background: #fae8e4;
+}
+
+.total-look__button:hover {
+  background: pink;
+}
+
+.total-look__link-arrow:hover {
+  opacity: 0.5;
 }
 
 .total-look__link {
@@ -622,17 +662,21 @@ span {
 
 @media (max-width: 1200px) {
   .new-сollection__main-button {
-    width: 35%;
+    width: 45%;
     font-size: 8px;
     font-size: 13px;
   }
 }
 
 @media (max-width: 1200px) {
+  .new-сollection__link-arrow {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1200px) {
   .new-сollection__main-link {
     width: 50%;
-    margin-left: 3%;
-    margin-right: -7%;
     font-size: 13px;
   }
 }
@@ -657,7 +701,6 @@ span {
 
 @media (max-width: 1010px) {
   .new-сollection__main-link {
-    margin-right: -10%;
     font-size: 10px;
   }
 }
@@ -665,12 +708,6 @@ span {
 @media (max-width: 961px) {
   .new-сollection__main-card {
     margin-top: 5%;
-  }
-}
-
-@media (max-width: 961px) {
-  .new-сollection__main-link {
-    margin-right: -5%;
   }
 }
 
@@ -689,7 +726,7 @@ span {
 
 @media (max-width: 961px) {
   .new-сollection-main-link {
-    margin-left: 5%;
+    font-size: 7px;
   }
 }
 
@@ -698,12 +735,6 @@ span {
   .galka,
   .new-collection__background_girl {
     display: none;
-  }
-}
-
-@media (max-width: 1010px) {
-  .new-сollection__main-button {
-    font-size: 9px;
   }
 }
 
@@ -811,20 +842,716 @@ span {
 
 /* Медиа запросы 2й секции */
 
-@media (max-width: 1300px) {
+@media (max-width: 1400px) {
+  .card {
+    width: 35%;
+    margin-left: 60%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .bag__link {
+    width: 40%;
+    margin-left: 60%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .bag__arrow {
+    margin-left: 78%;
+    width: 15%;
+  }
+}
+
+@media (max-width: 1400px) {
   .bag__wight {
+    width: 27%;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .bag__pink {
+    width: 35%;
+    margin-left: 15%;
+    height: 750px;
+  }
+}
+
+@media (max-width: 1330px) {
+  .card {
+    width: 38%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .bag__arrow {
+    margin-left: 80%;
+  }
+}
+
+@media (max-width: 1220px) {
+  .bag__title-bold {
+    font-size: 30px;
+    line-height: 31px;
+    left: 30px;
+  }
+}
+
+@media (max-width: 1220px) {
+  .bag__title {
+    font-size: 12px;
+    line-height: 12px;
+    left: 30px;
+  }
+}
+
+@media (max-width: 1220px) {
+  .bag-text {
+    width: 80%;
+    top: 150px;
+    left: 30px;
+  }
+}
+
+@media (max-width: 1220px) {
+  .bag__button-number {
+    width: 90px;
+    left: 30px;
+  }
+}
+
+@media (max-width: 1220px) {
+  .bag__color {
+    left: 30px;
+  }
+}
+
+@media (max-width: 1220px) {
+  .bag__button {
+    left: 140px;
+    width: 220px;
+  }
+}
+
+@media (max-width: 1220px) {
+  span {
+    left: 60%;
+  }
+}
+
+@media (max-width: 1220px) {
+  .card {
+    width: 35%;
+  }
+}
+
+@media (max-width: 1150px) {
+  .bag__arrow {
+    margin-left: 81%;
+    width: 13%;
+  }
+}
+
+@media (max-width: 1150px) {
+  .bag__button {
+    width: 200px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .bag__pink {
+    height: 650px;
+    top: 1000px;
+    width: 33%;
+  }
+}
+
+@media (max-width: 1150px) {
+  .bag__wight {
+    height: 300px;
+    top: 1150px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .bag__arrow {
+    width: 12%;
+    margin-left: 82%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .bag__arrow {
+    width: 11%;
+    margin-left: 83%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .card {
+    margin-left: 53%;
+    width: 45%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .bag__arrow {
+    width: 17%;
+    margin-left: 80%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .bag__link {
+    margin-left: 53%;
+  }
+}
+
+@media (max-width: 900px) {
+  .bag__pink {
+    width: 30%;
+    height: 580px;
+  }
+}
+
+@media (max-width: 900px) {
+  .bag__wight {
+    width: 25%;
+    height: 250px;
+  }
+}
+
+@media (max-width: 850px) {
+  .bag__arrow {
+    margin-left: 82%;
+    width: 15%;
+  }
+}
+
+@media (max-width: 800px) {
+  .bag__wight,
+  .bag__button-number,
+  .bag__link-arrow {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .bag__pink {
+    width: 500px;
+    height: 600px;
+    left: 0;
+    top: 700px;
+  }
+}
+
+@media (max-width: 800px) {
+  .card {
+    margin: 5%;
+    width: 90%;
+    top: 1235px;
+    height: 430px;
+  }
+}
+
+@media (max-width: 800px) {
+  .bag__title-bold {
+    font-size: 40px;
+    line-height: 41px;
+    left: 10%;
+  }
+}
+
+@media (max-width: 800px) {
+  .bag__title {
+    font-size: 16px;
+    line-height: 18px;
+    left: 10%;
+  }
+}
+
+@media (max-width: 800px) {
+  .bag-text {
+    width: 80%;
+    top: 140px;
+    left: 10%;
+  }
+}
+
+@media (max-width: 800px) {
+  .bag__color {
+    left: 10%;
+    top: 63%;
+    width: 300px;
+  }
+}
+
+@media (max-width: 800px) {
+  span {
+    top: 65%;
+    left: 65%;
+  }
+}
+
+@media (max-width: 800px) {
+  .color-wight,
+  .color-blue,
+  .color-green {
+    width: 50px;
+    height: 50px;
+    margin-right: 5%;
+  }
+}
+
+@media (max-width: 800px) {
+  .color-pink {
+    width: 60px;
+    height: 60px;
+    margin-right: 5%;
+  }
+}
+
+@media (max-width: 800px) {
+  .bag__button {
+    left: 10%;
+    top: 85%;
+    width: 80%;
+  }
+}
+
+@media (max-width: 660px) {
+  .color-wight,
+  .color-blue,
+  .color-green {
+    width: 40px;
+    height: 40px;
+    margin-right: 3%;
+  }
+}
+
+@media (max-width: 660px) {
+  .color-pink {
+    width: 50px;
+    height: 50px;
+    margin-right: 3%;
+  }
+}
+
+@media (max-width: 660px) {
+  .bag__color{
+    top: 65%;
+  }
+}
+
+@media (max-width: 660px) {
+  .bag__pink {
+    left: -5%;
+  }
+}
+
+@media (max-width: 660px) {
+  .bag-text {
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+
+@media (max-width: 550px) {
+  .bag__pink {
+    width: 400px;
+  }
+}
+
+@media (max-width: 550px) {
+  .bag__button {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .color-pink {
+    width: 35px;
+    height: 35px;
+    margin-right: 2%;
+  }
+}
+
+@media (max-width: 450px) {
+  .color-wight,
+  .color-blue,
+  .color-green {
+    width: 25px;
+    height: 25px;
+    margin-right: 2%;
+  }
+}
+
+@media (max-width: 450px) {
+  .bag__color {
+    top: 68%;
+  }
+}
+
+@media (max-width: 450px) {
+  .bag__title-bold {
+    font-size: 30px;
+    line-height: 31px;
+  }
+}
+
+@media (max-width: 450px) {
+  .bag__pink {
+    width: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+  .bag__button {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  .bag-text {
+    font-size: 12px;
+    line-height: 13px;
+  }
+}
+
+/* Медиа запросы 3й секции */
+
+@media (max-width: 1450px) {
+  .name {
+    left: 81.5%;
+  }
+}
+
+@media (max-width: 1450px) {
+.letters-yellow {
+  left: 90%;
+  }
+}
+
+@media (max-width: 1450px) {
+  .letters-black {
+    left: 93.4%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .name {
+    left: 73.5%;
+  }
+}
+
+@media (max-width: 1400px) {
+.letters-yellow {
+  left: 82%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .letters-black {
+    left: 85.4%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .name {
+    left: 66.5%;
+  }
+}
+
+@media (max-width: 1300px) {
+.letters-yellow {
+  left: 75%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .letters-black {
+    left: 78.4%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .total-look__background {
+    left: 19%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .things {
+    width: 35%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .total-look__card {
+    margin-left: -20%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .total-look__link {
+    margin-left: -20%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .total-look__arrow {
+    left: 62%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .name {
+    left: 59.5%;
+  }
+}
+
+@media (max-width: 1200px) {
+.letters-yellow {
+  left: 68%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .letters-black {
+    left: 71.4%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .name {
+    left: 53.5%;
+  }
+}
+
+@media (max-width: 1100px) {
+.letters-yellow {
+  left: 62%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .letters-black {
+    left: 65.4%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .total-look__background {
+    left: 17%;
+    width: 3%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .things {
     width: 30%;
   }
 }
 
-@media (max-width: 1300px) {
-  .bag__pink {
-    width: 40%;
+@media (max-width: 1050px) {
+  .total-look__card {
+    margin-left: -30%;
+    width: 350px;
+    height: 300px;
   }
 }
 
-@media (max-width: 1300px) {
-  .card {
-    width: 40%;
+@media (max-width: 1050px) {
+  .bag-title-bold {
+    margin-left: 20px;
+    font-size: 27px;
+    line-height: 28px;
   }
 }
+
+@media (max-width: 1050px) {
+  .bag-title {
+    margin-left: 20px;
+    font-size: 15px;
+    line-height: 16px;
+    top: 72px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .total-look__text {
+    left: 5%;
+    top: 110px;
+    font-size: 17px;
+    line-height: 17px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .total-look__button-number {
+    left: 5%;
+    top: 200px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .total-look__button{
+    top: 200px;
+    width: 200px;
+    left: 130px;
+    height: 47px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .total-look__link {
+    margin-left: -35%;
+    width: 200px;
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .total-look__arrow {
+    left: 45%;
+    width: 85px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .name {
+    left: 49.5%;
+  }
+}
+
+@media (max-width: 1050px) {
+.letters-yellow {
+  left: 58%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .letters-black {
+    left: 61.4%;
+  }
+}
+
+@media (max-width: 950px) {
+  .name {
+    left: 40.5%;
+  }
+}
+
+@media (max-width: 950px) {
+.letters-yellow {
+  left: 49%;
+  }
+}
+
+@media (max-width: 950px) {
+  .letters-black {
+    left: 52.4%;
+  }
+}
+
+@media (max-width: 850px) {
+  .name {
+    left: 36.5%;
+  }
+}
+
+@media (max-width: 850px) {
+.letters-yellow {
+  left: 45%;
+  }
+}
+
+@media (max-width: 850px) {
+  .letters-black {
+    left: 48.4%;
+  }
+}
+
+@media (max-width: 800px) {
+  .name,
+  .letters-yellow,
+  .letters-black,
+  .total-look__button-number {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .things {
+    left: 3%;
+    top: 40px;
+    width: 47%;
+    height: 50%;
+  }
+}
+
+@media (max-width: 800px) {
+  .total-look__card {
+    margin-left: -47%;
+    width: 34%;
+    height: 35%;
+    top: 405px;
+  }
+}
+
+@media (max-width: 800px) {
+  .bag-title-bold {
+    font-size: 40px;
+    margin-left: 30px;
+    top: 40px;
+  }
+}
+
+@media (max-width: 800px) {
+  .bag-title {
+    font-size: 25px;
+    margin-left: 30px;
+    top: 90px;
+    width: 400px;
+  }
+}
+
+@media (max-width: 800px) {
+  .total-look__text {
+    font-size: 20px;
+    left: 30px;
+    top: 145px;
+    width: 400px;
+  }
+
+@media (max-width: 800px) {
+  .total-look__button {
+    top: 225px;
+    width: 430px;
+    left: 30px;
+    height: 60px;
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 800px) {
+  .total-look__link {
+    top: 760px;
+    font-size: 30px;
+    line-height: 30px;
+    width: 300px;
+    margin-left: -42%;
+  }
+}
+
+@media (max-width: 800px) {
+  .total-look__arrow {
+    top: 830px;
+    width: 18.5%;
+    margin-left: -21%;
+  }
+
+ 
