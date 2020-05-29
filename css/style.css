@@ -1895,7 +1895,7 @@ span {
   }
 }
 
-@media (max-width: 800px {
+@media (max-width: 800px) {
   .total-look__text {
     font-size: 15px;
     left: 30px;
