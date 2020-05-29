@@ -384,12 +384,6 @@ body {
   border: none;
 }
 
-.color-wight:hover,
-.color-blue:hover,
-.color-green:hover {
-opacity: 0.5;
-}
-
 .color-pink {
   width: 38px;
   height: 38px;
@@ -406,12 +400,24 @@ opacity: 0.5;
   background: #ded;
 }
 
+.color-wight:hover {
+  opacity: 0.5;
+}
+
 .color-blue {
   background: #a8bff9;
 }
 
+.color-blue:hover {
+  opacity: 0.5;
+}
+
 .color-green {
   background: #90bd8f;
+}
+
+.color-green:hover {
+  opacity: 0.5;
 }
 
 span {
@@ -1140,7 +1146,7 @@ span {
 }
 
 @media (max-width: 660px) {
-  .bag__color{
+  .bag__color {
     top: 65%;
   }
 }
