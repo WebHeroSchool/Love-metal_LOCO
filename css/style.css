@@ -1773,7 +1773,7 @@ span {
 
 @media (max-width: 980px) {
   .bag-title-bold {
-    font-size: 25px;
+    font-size: 22px;
   }
 }
 
@@ -1895,7 +1895,7 @@ span {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 800px {
   .total-look__text {
     font-size: 15px;
     left: 30px;
