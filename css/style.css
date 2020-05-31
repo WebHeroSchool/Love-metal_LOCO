@@ -5,6 +5,8 @@ body {
 
 .body {
   min-width: 350px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .title,
@@ -364,7 +366,7 @@ body {
   margin-left: 879px;
   top: 1068px;
   background: #fff;
-  min-width: 350px;
+  min-width: 300px;
 }
 
 .bag__color {
@@ -584,12 +586,6 @@ span {
   display: flex;
   justify-content: start;
   align-items: flex-end;
-}
-
-@media (max-width: 1440px) {
-  body {
-    max-width: 1440px;
-  }
 }
 
 /* Медиа запросы 1 секции */
@@ -1013,7 +1009,6 @@ span {
 
 @media (max-width: 900px) {
   .bag__pink {
-    width: 30%;
     height: 580px;
   }
 }
@@ -1198,8 +1193,9 @@ span {
 
 @media (max-width: 450px) {
   .bag__title-bold {
-    font-size: 30px;
-    line-height: 31px;
+    font-size: 25px;
+    line-height: 27px;
+    width: 270px;
   }
 }
 
@@ -1893,7 +1889,7 @@ span {
     font-size: 18px;
     margin-left: 30px;
     top: 70px;
-    width: 400px;
+    width: 250px;
   }
 }
 
@@ -1936,7 +1932,7 @@ span {
 
 @media (max-width: 630px) {
   .things {
-    width: 80%;
+    width: 85%;
     height: 400px;
   }
 }
@@ -1956,9 +1952,9 @@ span {
   }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 600px) {
   .total-look__text {
-    width: 335px;
+    width: 250px;
   }
 }
 
@@ -2013,6 +2009,12 @@ span {
 }
 
 @media (max-width: 430px) {
+  span {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 430px) {
   .things {
     height: 300px;
   }
@@ -2027,7 +2029,6 @@ span {
 
 @media (max-width: 430px) {
   .total-look__text {
-    width: 250px;
     font-size: 12px;
     top: 120px;
     left: 15px;
@@ -2064,5 +2065,42 @@ span {
 @media (max-width: 430px) {
   .total-look__arrow {
     top: 2675px;
+  }
+}
+
+@media (max-width: 330px) {
+  .things {
+    width: 95%;
+    height: 40%;
+  }
+}
+
+@media (max-width: 300px) {
+  .things {
+    width: 105%;
+  }
+}
+
+@media (max-width: 326px) {
+  .total-look__card {
+    width: 80%;
+  }
+}
+
+@media (max-width: 326px) {
+  .bag-title-bold {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 300px) {
+  .total-look__card {
+    width: 90%;
+  }
+}
+
+@media (max-width: 280px) {
+  .total-look__button {
+    font-size: 10px;
   }
 }
