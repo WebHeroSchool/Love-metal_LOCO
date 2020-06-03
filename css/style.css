@@ -894,6 +894,7 @@ span {
     font-size: 30px;
     line-height: 31px;
     left: 30px;
+    width: 300px;
   }
 }
 
@@ -947,14 +948,14 @@ span {
 
 @media (max-width: 1150px) {
   .bag__arrow {
-    margin-left: 81%;
+    margin-left: 81%; 
     width: 13%;
   }
 }
 
 @media (max-width: 1150px) {
   .bag__button {
-    width: 200px;
+    width: 56%;
   }
 }
 
@@ -1058,6 +1059,7 @@ span {
     font-size: 40px;
     line-height: 41px;
     left: 10%;
+    width: 350px;
   }
 }
 
@@ -1819,25 +1821,26 @@ span {
 
 @media (max-width: 980px) {
   .letters-yellow {
-    left: 700px;
+    left: 690px;
   }
 }
 
 @media (max-width: 980px) {
   .letters-black {
-    left: 750px;
+    left: 740px;
   }
 }
 
 @media (max-width: 980px) {
   .name {
-    left: 580px;
+    left: 570px;
   }
 }
 
 @media (max-width: 900px) {
   .total-look__link {
     font-size: 10px;
+    max-width: 250px;
   }
 }
 
@@ -1908,7 +1911,7 @@ span {
     width: 80%;
     left: 10%;
     height: 40px;
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 
@@ -1960,7 +1963,7 @@ span {
 
 @media (max-width: 520px) {
   .total-look__button {
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 
@@ -2037,7 +2040,6 @@ span {
 
 @media (max-width: 430px) {
   .total-look__button {
-    font-size: 13px;
     top: 220px;
   }
 }
