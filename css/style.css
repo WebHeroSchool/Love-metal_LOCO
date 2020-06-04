@@ -864,16 +864,17 @@ span {
 
 @media (max-width: 1400px) {
   .bag__wight {
-    width: 27%;
+    width: 35%;
     margin-left: 5%;
+    height: 45%;
   }
 }
 
 @media (max-width: 1400px) {
   .bag__pink {
-    width: 35%;
+    width: 40%;
     margin-left: 15%;
-    height: 750px;
+    height: 100%;
   }
 }
 
@@ -946,6 +947,21 @@ span {
   }
 }
 
+@media (max-width: 1200px) {
+  .bag__pink {
+    height: 85%;
+    top: 1030px;
+    width: 40%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .bag__wight {
+    height: 43%;
+    top: 1170px;
+  }
+}
+
 @media (max-width: 1150px) {
   .bag__arrow {
     margin-left: 81%;
@@ -960,21 +976,6 @@ span {
 }
 
 @media (max-width: 1150px) {
-  .bag__pink {
-    height: 650px;
-    top: 1000px;
-    width: 33%;
-  }
-}
-
-@media (max-width: 1150px) {
-  .bag__wight {
-    height: 300px;
-    top: 1150px;
-  }
-}
-
-@media (max-width: 1150px) {
   .bag__arrow {
     width: 12%;
     margin-left: 82%;
@@ -985,6 +986,22 @@ span {
   .bag__arrow {
     width: 11%;
     margin-left: 83%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .bag__pink {
+    height: 70%;
+    top: 1070px;
+    width: 35%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .bag__wight {
+    width: 30%;
+    height: 40%;
+    top: 1190px;
   }
 }
 
@@ -1008,23 +1025,23 @@ span {
   }
 }
 
-@media (max-width: 900px) {
-  .bag__pink {
-    height: 580px;
-  }
-}
-
-@media (max-width: 900px) {
-  .bag__wight {
-    width: 25%;
-    height: 250px;
-  }
-}
-
 @media (max-width: 850px) {
   .bag__arrow {
     margin-left: 82%;
     width: 15%;
+  }
+}
+
+@media (max-width: 850px) {
+  .bag__pink {
+    height: 60%;
+    top: 1090px;
+  }
+}
+
+@media (max-width: 850px) {
+  .bag__wight {
+    height: 35%;
   }
 }
 
