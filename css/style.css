@@ -367,6 +367,7 @@ body {
   top: 1068px;
   background: #fff;
   min-width: 300px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .bag__color {
@@ -510,7 +511,8 @@ span {
 .things {
   position: absolute;
   left: 400px;
-  top: 1991px;
+  top: 2058px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .total-look__background {
@@ -524,8 +526,8 @@ span {
   position: absolute;
   width: 475px;
   height: 351px;
-  left: 1140px;
-  top: 2107px;
+  left: 1100px;
+  top: 2177px;
   background: #fae8e4;
 }
 
@@ -557,13 +559,13 @@ span {
   width: 299px;
   height: 14px;
   left: 1275px;
-  top: 2495px;
+  top: 2560px;
 }
 
 .total-look__arrow {
   position: absolute;
   left: 1510px;
-  top: 2490px;
+  top: 2560px;
   width: 108px;
 }
 
@@ -1484,19 +1486,19 @@ span {
 
 @media (max-width: 2050px) {
   .things {
-    left: 350px;
+    left: 390px;
   }
 }
 
 @media (max-width: 2050px) {
   .total-look__background {
-    left: 650px;
+    left: 685px;
   }
 }
 
 @media (max-width: 2050px) {
   .total-look__card {
-    left: 1100px;
+    left: 1110px;
   }
 }
 
@@ -1587,7 +1589,7 @@ span {
 
 @media (max-width: 1650px) {
   .total-look__background {
-    left: 450px;
+    left: 400px;
   }
 }
 
@@ -1826,13 +1828,13 @@ span {
 @media (max-width: 980px) {
   .total-look__link {
     font-size: 11px;
-    top: 2420px;
+    top: 2490px;
   }
 }
 
 @media (max-width: 980px) {
   .total-look__arrow {
-    top: 2418px;
+    top: 2490px;
   }
 }
 
@@ -1871,11 +1873,17 @@ span {
 }
 
 @media (max-width: 800px) {
+  .total-look {
+    height: 1120px;
+  }
+} 
+
+@media (max-width: 800px) {
   .things {
     margin-left: 8%;
     top: 1920px;
-    width: 85%;
-    height: 450px;
+    width: 90%;
+    height: 475px;
     left: 0;
   }
 }
@@ -1884,31 +1892,32 @@ span {
   .total-look__background {
     width: 10%;
     margin-left: 30%;
+    height: 1120px;
   }
 }
 
 @media (max-width: 800px) {
   .total-look__card {
-    top: 2330px;
-    margin-left: 22%;
-    width: 60%;
-    height: 250px;
+    top: 2360px;
+    margin-left: 16%;
+    width: 77%;
+    height: 355px;
   }
 }
 
 @media (max-width: 800px) {
   .bag-title-bold {
-    font-size: 30px;
+    font-size: 38px;
     margin-left: 30px;
-    margin-top: 15px;
+    margin-top: 40px;
   }
 }
 
 @media (max-width: 800px) {
   .bag-title {
-    font-size: 18px;
+    font-size: 20px;
     margin-left: 30px;
-    top: 70px;
+    top: 95px;
     width: 250px;
   }
 }
@@ -1917,24 +1926,24 @@ span {
   .total-look__text {
     font-size: 15px;
     left: 30px;
-    top: 110px;
+    top: 140px;
     width: 370px;
   }
 }
 
 @media (max-width: 800px) {
   .total-look__button {
-    top: 190px;
-    width: 80%;
-    left: 10%;
-    height: 40px;
-    font-size: 15px;
+    top: 240px;
+    width: 85%;
+    left: 8%;
+    height: 70px;
+    font-size: 25px;
   }
 }
 
 @media (max-width: 800px) {
   .total-look__link {
-    top: 2640px;
+    top: 2800px;
     font-size: 27px;
     line-height: 30px;
     width: 250px;
@@ -1944,9 +1953,17 @@ span {
 
 @media (max-width: 800px) {
   .total-look__arrow {
-    top: 2700px;
-    width: 18.5%;
+    top: 2870px;
+    width: 35%;
     margin-left: 50%;
+  }
+}
+
+@media (max-width: 630px) {
+  .total-look,
+  .total-look__background
+   {
+    height: 1000px;
   }
 }
 
@@ -1969,12 +1986,32 @@ span {
 @media (max-width: 630px) {
   .total-look__button {
     top: 220px;
+    height: 50px;
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 630px) {
+  .total-look__link {
+    top: 2670px;
+  }
+}
+
+@media (max-width: 630px) {
+  .total-look__arrow {
+    top: 2740px;
   }
 }
 
 @media (max-width: 600px) {
   .total-look__text {
     width: 250px;
+  }
+}
+
+@media (max-width: 580px) {
+  .bag-title-bold {
+    font-size: 30px;
   }
 }
 
@@ -1998,6 +2035,14 @@ span {
 }
 
 @media (max-width: 500px) {
+  .total-look,
+  .total-look__background
+   {
+    height: 900px;
+  }
+}
+
+@media (max-width: 500px) {
   .things {
     height: 350px;
   }
@@ -2012,13 +2057,13 @@ span {
 
 @media (max-width: 500px) {
   .total-look__link {
-    top: 2610px;
+    top: 2590px;
   }
 }
 
 @media (max-width: 500px) {
   .total-look__arrow {
-    top: 2670px;
+    top: 2650px;
   }
 }
 
@@ -2077,13 +2122,21 @@ span {
 
 @media (max-width: 430px) {
   .total-look__link {
-    top: 2615px;
+    top: 2570px;
   }
 }
 
 @media (max-width: 430px) {
   .total-look__arrow {
-    top: 2675px;
+    top: 2630px;
+  }
+}
+
+@media (max-width: 430px) {
+  .total-look,
+  .total-look__background
+   {
+    height: 850px;
   }
 }
 
