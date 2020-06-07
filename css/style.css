@@ -1876,7 +1876,7 @@ span {
   .total-look {
     height: 1120px;
   }
-} 
+}
 
 @media (max-width: 800px) {
   .things {
@@ -1961,8 +1961,7 @@ span {
 
 @media (max-width: 630px) {
   .total-look,
-  .total-look__background
-   {
+  .total-look__background {
     height: 1000px;
   }
 }
