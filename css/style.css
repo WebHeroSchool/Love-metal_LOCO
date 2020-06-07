@@ -2132,8 +2132,7 @@ span {
 
 @media (max-width: 430px) {
   .total-look,
-  .total-look__background
-   {
+  .total-look__background {
     height: 850px;
   }
 }
