@@ -367,7 +367,7 @@ body {
   top: 1068px;
   background: #fff;
   min-width: 300px;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 0 14px 28px rgba(0,0,0,.25),0 10px 10px rgba(0,0,0,.22);
 }
 
 .bag__color {
@@ -512,7 +512,7 @@ span {
   position: absolute;
   left: 400px;
   top: 2058px;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 0 14px 28px rgba(73, 59, 59, .25),0 10px 10px rgba(0,0,0,.22);
 }
 
 .total-look__background {
