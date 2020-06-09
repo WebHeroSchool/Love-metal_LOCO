@@ -314,7 +314,7 @@ body {
   font-weight: normal;
   font-size: 15px;
   line-height: 21px;
-  opacity: 0.5;
+  opacity: .5;
   position: absolute;
   width: 75%;
   height: 101px;
@@ -1195,7 +1195,7 @@ span {
 }
 
 @media (max-width: 450px) {
-  .card { 
+  .card {
     top: 1250px;
   }
 }
@@ -2234,7 +2234,7 @@ span {
 @media (max-width: 270px) {
   .total-look__arrow {
     top: 2530px;
-    width: 45%
+    width: 45%;
   }
 }
 
