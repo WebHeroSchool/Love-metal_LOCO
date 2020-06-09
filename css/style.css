@@ -1214,7 +1214,7 @@ span {
 }
 
 @media (max-width: 335px) {
-  .card { 
+  .card {
     width: 97%;
   }
 }
@@ -1948,6 +1948,7 @@ span {
 @media (max-width: 670px) {
   .total-look__arrow {
     top: 2850px;
+    width: 37%;
   }
 }
 
@@ -1996,6 +1997,7 @@ span {
 @media (max-width: 630px) {
   .total-look__arrow {
     top: 2740px;
+    width: 40%;
   }
 }
 
@@ -2020,6 +2022,7 @@ span {
 @media (max-width: 570px) {
   .total-look__arrow {
     top: 2725px;
+    width: 44%;
   }
 }
 
@@ -2046,7 +2049,7 @@ span {
 @media (max-width: 520px) {
   .total-look__arrow {
     top: 2640px;
-    width: 25%;
+    width: 32%;
   }
 }
 
@@ -2079,6 +2082,7 @@ span {
 @media (max-width: 500px) {
   .total-look__arrow {
     top: 2600px;
+    width: 35%;
   }
 }
 
@@ -2167,6 +2171,7 @@ span {
 @media (max-width: 390px) {
   .total-look__arrow {
     top: 2570px;
+    width: 42%;
   }
 }
 
@@ -2185,6 +2190,12 @@ span {
 @media (max-width: 330px) {
   .things {
     width: 95%;
+  }
+}
+
+@media (max-width: 390px) {
+  .total-look__arrow {
+    width: 43%;
   }
 }
 
@@ -2234,7 +2245,7 @@ span {
 @media (max-width: 270px) {
   .total-look__arrow {
     top: 2530px;
-    width: 45%;
+    width: 60%;
   }
 }
 
@@ -2265,6 +2276,6 @@ span {
 @media (max-width: 230px) {
   .total-look__arrow {
     top: 2515px;
-    width: 45%
+    width: 70%;
   }
 }
